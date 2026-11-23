@@ -1,6 +1,6 @@
 # 短影音漏斗腳本發想 Skill
 
-給賣東西的老闆用的短影音腳本發想 Skill。照五個步驟走：收資料 → 個人品牌八個問題訪談 → 照銷售漏斗 28 種格式各出一個題目 → 挑題 → 用「Hook → 證據 → 內容」寫成可拍的腳本。
+給賣東西的老闆用的短影音腳本發想 Skill。照五個步驟走：收資料 → 個人品牌八個問題訪談 → 照銷售漏斗 28 種格式各出一個題目 → 挑題 → 用七段結構寫成可拍的腳本：Hook → Super Hook → 背景 → 低谷 → 轉折點 → 付出努力 → 收穫成果。
 
 支援 ChatGPT Codex、Claude Code 等能讀 Skill 的 AI Agent。
 
@@ -29,14 +29,15 @@ AI 會先問你產品與客人，接著做八個問題的訪談，然後給你 2
 | `skills/shortvideo-funnel-script/SKILL.md` | 五個步驟的流程與規則 |
 | `references/八個問題.md` | 個人品牌訪談題目 |
 | `references/28種格式.md` | TOFU／MOFU／BOFU 28 種格式、怎麼排、示意題目 |
-| `references/腳本結構.md` | 開頭三句話、Super Hook 三種寫法、研究型的資料調查、結尾怎麼收 |
+| `references/腳本結構.md` | 七段腳本結構、開頭三句話（Hook）、Super Hook 三種寫法、研究型的資料調查、每種格式怎麼套七段 |
 | `references/輸出模板.md` | 品牌答案表、題目清單、腳本的格式 |
-| `references/創辦人起源故事.md` | 創辦人起源故事：Hook、Super Hook 加英雄之旅七個節點（60–90 秒） |
+| `references/創辦人起源故事.md` | 創辦人起源故事：七段結構的老闆本人版（60–90 秒） |
 
 ## 出處
 
 - 28 種格式的分類整理自 Logan Forsyth 的 Content funnel examples。
 - 開頭三句話與 Super Hook 的結構整理自 Chris Chung（@iamchrischung）的短影音。
+- 七段腳本結構由傑少（無界聯盟）定。
 - 八個問題由傑少（無界聯盟）整理，部分改寫自 Dan Koe 談個人品牌的問題。
 - 中文說明、排法與示意例子是無界聯盟整理；示意例子都是虛構的。
 
