@@ -31,6 +31,7 @@ AI 會先問你產品與客人，接著做八個問題的訪談，然後給你 2
 | `references/28種格式.md` | TOFU／MOFU／BOFU 28 種格式、怎麼排、示意題目 |
 | `references/腳本結構.md` | 開頭三句話、Super Hook 三種寫法、研究型的資料調查、結尾怎麼收 |
 | `references/輸出模板.md` | 品牌答案表、題目清單、腳本的格式 |
+| `references/創辦人起源故事.md` | 創辦人起源故事：Hook、Super Hook 加英雄之旅七個節點（60–90 秒） |
 
 ## 出處
 
