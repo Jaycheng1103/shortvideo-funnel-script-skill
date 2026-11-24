@@ -1,6 +1,21 @@
 # 短影音漏斗腳本發想 Skill
 
-給賣東西的老闆用的短影音腳本發想 Skill。照五個步驟走：收資料 → 個人品牌八個問題訪談 → 照銷售漏斗 28 種格式各出一個題目 → 挑題 → 用七段結構寫成可拍的腳本：Hook → Super Hook → 背景 → 低谷 → 轉折點 → 付出努力 → 收穫成果。
+給賣東西的老闆用的短影音腳本 Skill。AI 先問你這次要寫哪一種，再一題一題帶你走完：
+
+| 路線 | 第 1 步 | 第 2 步 | 第 3 步 |
+|---|---|---|---|
+| 個人故事 | 訪談你的故事 | 直接寫成腳本 | |
+| 商品短影音 | 訪談受眾與產品 | 給 30 個方向讓你挑 | 寫成腳本 |
+
+兩條路都寫成同一套五段腳本：
+
+| 段落 | 回答觀眾哪個問題 |
+|---|---|
+| 鉤子 | 為什麼我該在意？（第二句講你憑什麼：成果型、投入型、研究型三選一） |
+| 情境 | 我們在哪裡？快速交代背景 |
+| 挑戰 | 哪裡卡住了？ |
+| 行動 | 什麼改變了？ |
+| 收穫 | 所以呢？觀眾能帶走什麼 |
 
 支援 ChatGPT Codex、Claude Code 等能讀 Skill 的 AI Agent。
 
@@ -18,28 +33,30 @@ npx skills add Jaycheng1103/shortvideo-funnel-script-skill
 
 打開 Codex，貼上：
 
-> 請用 shortvideo-funnel-script 幫我發想短影音。我賣的是＿＿，主要客人是＿＿。先問我問題，一次問一題。
+> 請用 shortvideo-funnel-script 幫我寫短影音腳本。一次問我一題。
 
-AI 會先問你產品與客人，接著做八個問題的訪談，然後給你 28 個題目。挑好題目後，它會一支一支幫你寫腳本。
+AI 第一題會問你要寫個人故事還是商品短影音，接著照上面的步驟帶你走。每一題它都會附建議答案，你可以回「好」，也可以改成你自己的。
+
+## 拍完之後
+
+剪輯可以接著用 [ChatGPT 剪短影音 Skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) 的 `chatgpt-short-video-editor`：把影片和這份腳本一起給它，它會照鉤子、情境、挑戰、行動、收穫幫你標逐字稿、給剪輯建議。
 
 ## 內容
 
 | 檔案 | 用途 |
 |---|---|
-| `skills/shortvideo-funnel-script/SKILL.md` | 五個步驟的流程與規則 |
-| `references/八個問題.md` | 個人品牌訪談題目 |
-| `references/28種格式.md` | TOFU／MOFU／BOFU 28 種格式、怎麼排、示意題目 |
-| `references/腳本結構.md` | 七段腳本結構、開頭三句話（Hook）、Super Hook 三種寫法、研究型的資料調查、每種格式怎麼套七段 |
-| `references/輸出模板.md` | 品牌答案表、題目清單、腳本的格式 |
-| `references/創辦人起源故事.md` | 創辦人起源故事：七段結構的老闆本人版（60–90 秒） |
+| `skills/shortvideo-funnel-script/SKILL.md` | 第零步分流和兩條路線的流程與規則 |
+| `references/訪談題目.md` | 個人故事 7 題、商品短影音 6 題 |
+| `references/30個方向.md` | 吸引、信任、成交三層，共 30 個拍攝方向與示意題目 |
+| `references/五段腳本.md` | 五段怎麼寫、鉤子兩句話、憑什麼三型、研究型的資料調查、時間參考 |
+| `references/輸出模板.md` | 產品素材表、方向清單、腳本的格式 |
 
 ## 出處
 
-- 28 種格式的分類整理自 Logan Forsyth 的 Content funnel examples。
-- 開頭三句話與 Super Hook 的結構整理自 Chris Chung（@iamchrischung）的短影音。
-- 七段腳本結構由傑少（無界聯盟）定。
-- 八個問題由傑少（無界聯盟）整理，部分改寫自 Dan Koe 談個人品牌的問題。
-- 中文說明、排法與示意例子是無界聯盟整理；示意例子都是虛構的。
+- 五段腳本結構由傑少（無界聯盟）定。
+- 鉤子兩句話與「憑什麼」三型整理自 Chris Chung（@iamchrischung）的短影音。
+- 30 個方向裡的部分方向整理自 Logan Forsyth 的 Content funnel examples。
+- 中文說明、訪談題目、排法與示意例子是無界聯盟整理；示意例子都是虛構的。
 
 ## 注意
 
